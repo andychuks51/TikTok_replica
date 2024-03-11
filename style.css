@@ -1,0 +1,289 @@
+/* Import CSS Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* CSS RESET */
+
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* CSS RESET End */
+
+
+/* Utilities Styles */
+
+body {
+    background-color: #000;
+}
+
+ul li {
+    display: block;
+    list-style: none;
+}
+
+a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* Utilities End */
+
+
+/* Nav Bar */
+
+.navBgcolor {
+    background-color: black;
+}
+
+.navWrapper {
+    margin: 0px auto;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.brandLogo {
+    height: 35px;
+    width: fit-content;
+}
+
+.brandLogo img {
+    height: 35px;
+    width: fit-content;
+    object-fit: contain;
+}
+
+.searchInput {
+    border-radius: 30px;
+    background-color: #2F2F2F;
+    width: 420px;
+    align-items: center;
+    position: relative;
+}
+
+.searchInput input {
+    height: fit-content;
+    background-color: transparent;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    z-index: 2;
+    color: #fff;
+}
+
+.searchBtnLineBreak {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.searchBtnLineBreak:hover {
+    border: 1px solid #686666;
+}
+
+.lineBreak {
+    display: block;
+    height: 70%;
+    width: 1px;
+    background-color: #484848;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.searchIcon {
+    height: 100%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: transparent;
+    width: 15%;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon:hover {
+    background-color: #484848;
+}
+
+.searchBtn img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.otherOptionMenu {
+    width: fit-content;
+    height: 35px;
+    gap: 15px;
+}
+
+.uploadBtn {
+    width: 100%;
+    height: 100%;
+    background-color: #1B1B1B;
+    align-items: center;
+    gap: 5px;
+    background-color: #2F2F2F;
+    padding: 0 10px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.uploadBtn:hover {
+    background-color: #1B1B1B;
+}
+
+.logInBtn {
+    width: 100%;
+    height: 100%;
+    background-color: #FF3B5C;
+    border: none;
+    padding: 0 25px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logInBtn:hover {
+    background-color: #f8153b;
+}
+
+.hoverOptions {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.mainContainer {
+    margin: 10px auto;
+    width: 100%;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.leftSideMenu {
+    width: 20%;
+    position: sticky;
+    top: 0;
+}
+
+.menuItems {
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    object-fit: cover;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.menuItems svg {
+    font-size: 2em;
+}
+
+.menuItems span {
+    width: 85%;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.leftSideMenu p {
+    width: 70%;
+    margin: 25px 0;
+}
+
+.logInBtn2 {
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #2F2F2F;
+    padding: 15px 50px;
+    border: 1px solid #FF3B5C;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.lineBreak2 {
+    height: 1px;
+    width: 80%;
+    background-color: #484848;
+    margin-bottom: 20px;
+}
+
+.rewardNoticeBg {
+    position: relative;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.rewardNoticeBg img {
+    width: 100%;
+}
+
+.rewardNoticeText {
+    position: absolute;
+    left: 25%;
+}
+
+.navFootLinks {
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 5px;
+    width: 80%;
+}
+
+.navFootLinks li a {
+    font-size: 0.85rem;
+}
+
+.navFootLinks li a:hover {
+    text-decoration: underline;
+}
+
+.rightSideContent {
+    width: 80%;
+}
+
+.categorySection {
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.categoryItems {
+    margin: 0 10px;
+    background-color: #2F2F2F;
+    padding: 7px;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-align: center;
+    width: fit-content;
+}
+
+.categoryItems:hover, .categoryItems:focus {
+    color: #000;
+    background-color: #fff;
+}
